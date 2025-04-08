@@ -29,7 +29,7 @@ MIDDLEWARE = [
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'octofit_tracker_db',
+        'NAME': 'octofit_db',
     }
 }
 
