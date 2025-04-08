@@ -69,5 +69,8 @@ CORS_ALLOW_HEADERS = [
     'x-csrftoken',
 ]
 
-# Allow all hosts
-ALLOWED_HOSTS = ['*']
+# Allow host access to codespace URL and localhost
+ALLOWED_HOSTS = ['urban-space-adventure-6w4wwgp5p7jc4xg-8000.app.github.dev', 'localhost']
+
+# Add ROOT_URLCONF for URL configuration
+ROOT_URLCONF = 'octofit_tracker.urls'
